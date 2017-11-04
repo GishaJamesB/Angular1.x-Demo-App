@@ -1,0 +1,8 @@
+logs/*
+!.gitkeep
+node_modules/
+app/bower_components/
+app/scss/.saas-cache
+tmp
+.DS_Store
+.idea
