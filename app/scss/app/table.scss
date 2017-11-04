@@ -1,0 +1,25 @@
+table{
+  a{
+    cursor: pointer;
+  }
+}
+.table-bordered{
+  td.active{
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+  }
+}
+.scrolling-tbl{
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  p{
+    a{
+      display: block;
+      &.active{
+        border-bottom: 2px solid red;
+      }
+    }
+  }
+
+}
